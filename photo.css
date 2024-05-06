@@ -1,0 +1,45 @@
+.back {
+    z-index: 0;
+    position: absolute;
+}
+
+.pngimg {
+
+    z-index: 1;
+    position: absolute;
+    transform: scale(80%);
+    transform: translateY(23%);
+
+}
+
+.pngimg img {
+    animation: anima1 1s linear .5s 20;
+
+
+}
+
+@keyframes anima1 {
+    0% {
+
+        transform: scale(80%);
+    }
+
+    50% {
+
+        transform: scale(85%);
+    }
+
+    100% {
+        transform: scale(80%);
+
+    }
+
+
+
+
+}
+
+.pngimg img:hover{
+
+    transform: translate(100%);
+}
